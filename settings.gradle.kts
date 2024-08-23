@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Breeze"
 include(":app")
- 
+include(":breeze")
