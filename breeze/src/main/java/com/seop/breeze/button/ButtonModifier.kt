@@ -24,11 +24,7 @@ fun Modifier.breezeClickable(
     )
     val graphicLayerModifier = Modifier
         .graphicsLayer {
-            if (isPressed) {
-                scaleX = scale; scaleY = scale
-            } else {
-                scaleX = scale; scaleY = scale
-            }
+            scaleX = scale; scaleY = scale
         }
 
     val clickableModifier = Modifier

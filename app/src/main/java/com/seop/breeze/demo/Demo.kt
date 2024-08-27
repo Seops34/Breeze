@@ -42,7 +42,7 @@ fun Demo(
 
 @Preview(showBackground = true)
 @Composable
-private fun PreviewTest() {
+private fun PreviewDemo() {
     BreezeTheme {
         Demo()
     }
