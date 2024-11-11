@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.seop.breeze.demo.ui.picker.PickerPane
 import com.seop.breeze.demo.ui.theme.BreezeTheme
 
 class MainActivity : ComponentActivity() {
@@ -12,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BreezeTheme {
-                Demo()
+                PickerPane()
             }
         }
     }
